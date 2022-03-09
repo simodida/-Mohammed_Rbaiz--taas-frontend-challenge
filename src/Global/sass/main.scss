@@ -1,0 +1,19 @@
+// Start Variables SCSS
+@import "./variables";
+// End Variables SCSS
+// Start Global Rules
+@import "./reset";
+// End Global Rules
+// Start Fonts Google
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+// End Fonts Google
+// Start Design Body
+body {
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: $main-color;
+}
+// End Design Body
