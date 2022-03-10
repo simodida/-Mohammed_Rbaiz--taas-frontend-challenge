@@ -1,4 +1,4 @@
-export const country_list = {
+export const country_list: {[key: string]: string} = {
   AED: "AE",
   AFN: "AF",
   XCD: "AG",
